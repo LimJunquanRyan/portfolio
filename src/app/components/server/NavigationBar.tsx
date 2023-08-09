@@ -3,8 +3,8 @@ import React from "react";
 
 const NavigationBar: React.FC = () => {
 	return (
-		<nav className="text-gray-900 bg-white py-4 px-5 fixed w-full shadow-xl">
-			<div className="container mx-auto flex justify-between items-center">
+		<nav className="text-gray-900 bg-white py-3 px-4 sticky w-full shadow-xl">
+			<div className="container mx-auto flex justify-between items-center h-full w-full">
 				{/* Logo */}
 				<Link href="/" className="font-bold text-xl">
 					Logo
