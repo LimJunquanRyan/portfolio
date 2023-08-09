@@ -6,8 +6,8 @@ import WhiteLogo from "../../../../public/WhiteLogo.png";
 
 const NavigationBar: React.FC = () => {
 	return (
-		<nav className="text-gray-900 bg-white py-4 px-5 fixed w-full shadow-xl">
-			<div className="container mx-auto flex justify-between items-center">
+		<nav className="text-gray-900 bg-white py-3 px-4 sticky w-full shadow-xl">
+			<div className="container mx-auto flex justify-between items-center h-full w-full">
 				{/* Logo */}
 				<Link href="/" className="font-bold text-xl">
 					<Image src={BlackLogo} alt={`Logo`} width={25} height={25} />
