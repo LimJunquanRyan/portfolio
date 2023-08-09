@@ -1,5 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import BlackLogo from "../../../../public/BlackLogo.png";
+import WhiteLogo from "../../../../public/WhiteLogo.png";
 
 const NavigationBar: React.FC = () => {
 	return (
@@ -7,7 +10,7 @@ const NavigationBar: React.FC = () => {
 			<div className="container mx-auto flex justify-between items-center">
 				{/* Logo */}
 				<Link href="/" className="font-bold text-xl">
-					Logo
+					<Image src={BlackLogo} alt={`Logo`} width={25} height={25} />
 				</Link>
 
 				{/* Navigation Links */}
