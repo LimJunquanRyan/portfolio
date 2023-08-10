@@ -6,7 +6,7 @@ import WhiteLogo from "../../../public/WhiteLogo.png";
 
 const NavigationBar: React.FC = () => {
 	return (
-		<nav className="text-gray-900 bg-white py-3 px-4 sticky w-full shadow-xl">
+		<nav className="text-gray-900 bg-white py-3 px-4 sticky w-full shadow-xl font-montserrat font-light">
 			<div className="container mx-auto flex justify-between items-center h-full w-full">
 				{/* Logo */}
 				<Link href="/" className="font-bold text-xl">
@@ -31,7 +31,7 @@ const NavigationBar: React.FC = () => {
 
 				{/* Contact Me Button */}
 				<Link
-					href="/contact"
+					href="/"
 					className="bg-gray-300 hover:bg-gray-200 py-2 px-4 rounded">
 					Contact Me
 				</Link>
