@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import BlackLogo from "../../../../public/BlackLogo.png";
-import WhiteLogo from "../../../../public/WhiteLogo.png";
+import BlackLogo from "../../../public/BlackLogo.png";
+import WhiteLogo from "../../../public/WhiteLogo.png";
 
 const NavigationBar: React.FC = () => {
 	return (
