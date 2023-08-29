@@ -21,9 +21,9 @@ export default function RootLayout({
 					rel="stylesheet"
 				/>
 			</head>
-			<body>
+			<body className="font-montserrat">
 				<NavigationBar />
-				<div>{children}</div>
+				<div className="pt-16 bg-slate-200">{children}</div>
 			</body>
 		</html>
 	);
