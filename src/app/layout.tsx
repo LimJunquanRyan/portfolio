@@ -23,7 +23,7 @@ export default function RootLayout({
 			</head>
 			<body className="font-montserrat">
 				<NavigationBar />
-				<div className="pt-16 bg-slate-200">{children}</div>
+				<div className="pt-16 bg-delftBlue">{children}</div>
 			</body>
 		</html>
 	);

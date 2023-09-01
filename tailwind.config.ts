@@ -16,6 +16,13 @@ const config: Config = {
 			fontFamily: {
 				montserrat: ["Montserrat", "sans-serif"],
 			},
+			colors: {
+				linen: "#F7ECE1",
+				moonstone: "#66999B",
+				africanViolet: "#B58DB6",
+				delftBlue: "#3A405A",
+				redwood: "#AD6A6C",
+			},
 		},
 	},
 	plugins: [],
